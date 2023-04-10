@@ -1,13 +1,13 @@
 #' Title
 #'
 #' @param rf random forest prediction model
-#' @param data
+#' @param data 0
 #'
-#' @return
+#' @return prediction result
 #' @export
 #'
 #' @examples
-predict_rf <- function(rf = rfmodel, data=0){
+predict_rf <- function(rf, data=0){
   test <- as.data.frame(matrix(ncol=6, nrow=2))
 
   colnames(test) <- c("mz0", "int2_o_int0", "int1_o_int0",
@@ -19,6 +19,6 @@ predict_rf <- function(rf = rfmodel, data=0){
   test$mz_2_0 <- c(1.997,2.003)
   test$mz_1_0 <- c(1.003,1.003)
 
-  pre <- predict(rf, test)
+  pre <- stats:: predict(rf, test)
   return(pre)
 }

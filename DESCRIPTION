@@ -14,6 +14,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     randomForest,
+    stats,
     stringr
 Depends: 
     R (>= 2.10)

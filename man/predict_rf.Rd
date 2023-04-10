@@ -4,12 +4,15 @@
 \alias{predict_rf}
 \title{Title}
 \usage{
-predict_rf(rf = rfmodel, data = 0)
+predict_rf(rf, data = 0)
 }
 \arguments{
 \item{rf}{random forest prediction model}
 
-\item{data}{}
+\item{data}{0}
+}
+\value{
+prediction result
 }
 \description{
 Title
