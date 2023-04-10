@@ -4,6 +4,8 @@
 #'
 #' @format ## `rfmodel`
 #' A random forest model
-#' mz0, int2_o_int0, int1_o_int0, mz2_0, mz1_0
+#' To use the random forest, the user needs to prepare 6 columns
+#' prepare mz0, int2_o_int0, int1_o_int0, RI2_RI1, mz_2_0, mz_1_0
 #' @source
 "rfmodel"
+
