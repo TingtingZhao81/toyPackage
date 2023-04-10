@@ -3,7 +3,7 @@
 #' @param rf random forest prediction model
 #' @param data 0
 #'
-#' @return prediction result
+#' @return vector
 #' @export
 #'
 #' @examples

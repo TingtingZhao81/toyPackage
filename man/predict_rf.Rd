@@ -12,7 +12,7 @@ predict_rf(rf, data = 0)
 \item{data}{0}
 }
 \value{
-prediction result
+vector
 }
 \description{
 Title

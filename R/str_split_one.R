@@ -1,7 +1,7 @@
 #' Split a string
 #'
 #' @param string string, with one  elements
-#' @param pattern Charcter, what to split on
+#' @param pattern character, what to split on
 #'
 #' @return vector, vector after remove the split
 #' @export
