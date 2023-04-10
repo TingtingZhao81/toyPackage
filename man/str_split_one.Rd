@@ -9,7 +9,7 @@ str_split_one(string, pattern, n = Inf)
 \arguments{
 \item{string}{string, with one  elements}
 
-\item{pattern}{Charcter, what to split on}
+\item{pattern}{character, what to split on}
 }
 \value{
 vector, vector after remove the split
